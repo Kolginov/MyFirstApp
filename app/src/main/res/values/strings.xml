@@ -1,8 +1,7 @@
 <resources>
     <string name="MyFirstApp">MyFirstApp</string>
     <string name="app_name">MyFirstApp</string>
-    <string name="push_me">Push me</string>
-    <string name="buy">Buy</string>
     <string name="button">Button</string>
     <string name="hello">Hello!</string>
+    <string name="Bye">Bye</string>
 </resources>
