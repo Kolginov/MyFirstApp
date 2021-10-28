@@ -8,8 +8,21 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        val alphabet= listOf("a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z")
+        for (letter in alphabet.indices)
+            if(letter %2!=0)
+
+
+            Log.d("CPC4", "Letter: ${alphabet[letter]}")
+
+
+
+
+
         Log.d("TextPushkin", "Ты видел деву на скале")
         Log.d("TextPushkin", "В одежде белой над волнами")
+
     }
 
     override fun onStart() {
