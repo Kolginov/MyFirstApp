@@ -43,4 +43,8 @@ class MainActivity : AppCompatActivity() {
         Log.d("TextPushkin", "Прекрасней волн, небес и бури.")
     }
 
+    override fun onRestart() {
+        super.onRestart()
+    }
+
 }
